@@ -4,11 +4,11 @@
 	<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 </head>
 <body>
+	<a-scene>
 	<a-assets>
      <a-asset-item id="cell-obj" src="cell.obj"></a-asset-item> 
      <a-asset-item id="cell-mtl" src="cell.mtl"></a-asset-item> 
 </a-assets>
-<a-scene>
 	<a-sky color="#04F3F7"></a-sky>
 	<a-entity obj-model="obj: #cells-obj; mtl: #cell-mtl" scale="2.0 2.0 2.0" rotation="-90 0 0" position="0.500 -0.542 -0.609"></a-entity>
 <a-text value="The organelle that has littl  sqiggly lines in it is a mitocondria. The function of a mitocondria is to make energy for the cell."></a-text>
